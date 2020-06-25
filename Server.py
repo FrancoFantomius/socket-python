@@ -9,6 +9,6 @@ s.listen(15)
 while True:
     clientsocket, address=s.accept()
     print(f"{address}")
-    msg="Connesso al Server"
+    msg="Connesso al Server"+str(address)
     msg=f"{len(msg):<{max_h}}"+msg
     clientsocket.send(bytes(msg, "utf-8"))
