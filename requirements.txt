@@ -9,7 +9,7 @@ click==7.1.2
 colorama==0.4.3
 cryptography==2.9.2
 decorator==4.4.2
-Flask==1.1.2
+Flask==2.2.5
 httplib2==0.18.1
 idna==2.9
 ipykernel==5.2.1
